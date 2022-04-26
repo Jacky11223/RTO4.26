@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Flexbox grid layout w/ Mobile Menu</title>
+ <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header class="header">
+    <div class="container">
+      <h1 class="site-title">Supreme</h1>
+    <span class="site-tagline">Bringing you the best IT project training!</span>
+    <img src="LOGO.jpg" alt="LOGO.png"width="100" height="80">
+  </div>
+</header>
+<nav class="main-nav">
+  <div class="container">
+    <ul>
+      <li class="mobile-button"><a href="#">Menu</a></li>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="COURSE.html">COURSE</a></li>
+    <li><a href="CONTACT.html">CONTACT</a></li>
+  
+  </ul>
+  </div>
+</nav>
+
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">Supreme</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="ON1.jpg" style="width:100%">
+  <img class="mySlides" src="ON2.jpg" style="width:100%">
+  <img class="mySlides" src="ON3.jpg" style="width:100%">
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
+
+
+  
+
+ 
+  
+
+<section class="content">
+  <div class="full-bleed cool-photo"></div>
+
+  <article class="post">
+    <div class="container">
+        <h2>About us</h2>
+      <div class="columns">
+        <div class="item">
+         <p>Our company is a leading provider of training for the ICT industry. Choose from a wide range of courses and career paths across multiple industries, with specializations that match current and developing technologies. Our digital and IT students learn skills in current and tested technologies applicable to workforce needs, from cloud-based to mobile, from big data analytics to social technologies.</p> </div>
+      </div>   
+  </article>  
+  
+    <article class="post">
+    <div class="container">
+        <h2>Our Purpose</h2>
+      <div class="columns">
+        <div class="item">
+         <p>Use our educational resources to deliver and cultivate IT elites and talents for the society.</p> </div>
+      </div>   
+  </article>
+  <div class="full-bleed cool-photo2"></div>
+
+  
+  
+ 
+        
+    
+  </article>
+</section>
+
+<footer class="footer">
+  <div class="container">
+   
+  </div>
+  </footer>
+
+ 
+</body>
+</html>
