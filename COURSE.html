@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Flexbox grid layout w/ Mobile Menu</title>
+ <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header class="header">
+    <div class="container">
+      <h1 class="site-title">Supreme</h1>
+    <span class="site-tagline">Bringing you the best IT project training!</span>
+    <img src="LOGO.jpg" alt="LOGO.png"width="100" height="80">
+  </div>
+</header>
+<nav class="main-nav">
+  <div class="container">
+    <ul>
+      <li class="mobile-button"><a href="#">Menu</a></li>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="COURSE.html">COURSE</a></li>
+    <li><a href="CONTACT.html">CONTACT</a></li>
+  
+  </ul>
+  </div>
+</nav>
+
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center"></h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="IT6.jpg" style="width:100%">
+  <img class="mySlides" src="IT5.jpg" style="width:100%">
+  <img class="mySlides" src="IT1.jpg" style="width:100%">
+  <img class="mySlides" src="IT3.jpg" style="width:100%">
+  
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body>
+</html>
+
+
+
+
+<article class="post">
+  <div class="container">
+      <h2>Overviewxt</h2>
+    <div class="columns">
+      <div class="item">
+       <p>The digital economy will play an important role in future prosperity and will disrupt every aspect of the global economy, meaning that ICT employment prospects will continue to grow. Our company can help you start, grow or reach the pinnacle of your career. From certificates to diplomas to degrees, Supreme is your center of excellence in ICT training.
+
+        If you are tech-savvy, have strong computer skills and love to solve problems, our IT courses are the perfect way to enter your career. Our ICT lab includes a separate workshop for computer hardware testing and maintenance, computer networking tasks, and virus infection and removal.</p> </div>
+    </div>   
+</article>
+
+<table>
+  <caption>Course Details</caption>
+  <link href="style1.css" rel="stylesheet" media="all" />
+  
+  <thead>
+  <tr>
+    <th>Course</th>
+    <th>Topic</th>
+    <th>Course Introduction</th>
+    <th>class hours</th>
+  <tr>
+  </thead>
+<tbody>
+  <tr>
+    <th>IT Project Management</th>
+    <th>1. Software management 2. Information system management 3. Database management
+    <br> <a href="https://www.projectmanager.com/guides/it-project-management" target="_blank">(IT Project Management Guide)</a>   
+    </th>
+    <td>IT projects exist within a variety of industries, including software, information security, information systems, communications, hardware, network, databases, and mobile apps. </td>
+    <td>72 hours</td>
+  </tr>
+  <tr>
+    <th>Database Design and infrastructure </th>
+    <th>1. Database Design 2. Database Development 3. Database Implementation
+    <br> <a href="https://www.academia.edu/38216067/Database_Design_And_Development" target="_blank">(Database Design and infrastructure Guide)</a>
+    </th>
+    <td>Database design is the organization of data according to a database model. The designer determines what data must be stored and how the data elements interrelate. With this information, they can begin to fit the data to the database model. Database management system manages the data accordingly.</td>
+    <td>60 hours</td>
+  </tr>
+  <tr>
+    <th>IT Security</th>
+    <th>1. Internet Security 2. Application Security 3. Network Security
+    <br> <a href="https://www.upwork.com/resources/it-security" target="_blank">(IT Security Guide)</a>
+    </th>
+     <td>IT security is the protection of information, especially the processing of information. IT security is designed to prevent manipulation of data and systems by unauthorized third parties. The implication behind this is that socio-technical systems within a company/organization, i.e. people and technology and their data are protected from damage and threats. This means not only information and data, but also physical data centers or cloud services.</td>
+     <td>50 hours</td>
+  </tr>
+  <tr>
+      <th>Interactive Media, 3D Animation and Games</th>
+      <th>1. 2D and 3D animation production 2 Game design 3. Post production
+      <br> <a href="https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-design-animation-and-interactive-media-bp203" target="_blank">(Interactive Media, 3D Animation and Games Guide)</a>
+      </th>
+      <td>Interactive storytelling, animation, immersive environments (AR/VR), game design, and the supporting technologies available will enable you to realize your personal artistic vision. This program focuses on the skills and tools you need, from 2D and 3D animation to programming to game engines. Our close-knit community of faculty and students encourages you to develop your own original ideas and aesthetics.</td>
+      <td>72 hours</td>
+   </tr>
+   <tr>
+      <th>Web Development</th>
+      <th>1. Web Design 2. Web Publishing 3. Web Maintenance
+      <br> <a href="https://intellipaat.com/blog/what-is-web-development/" target="_blank">(Web Development Guide)</a>
+      </th>
+      <td>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development.</td>
+      <td>64 hours</td>
+   </tr>
+   <tr>
+      <th>Software Development and Programming</th>
+      <th>1. Software Creation and Design 2. Software Deployment 3. Software Maintenance
+      <br> <a href="https://www.lsbu.ac.uk/study/course-finder/software-development-programming/" target="_blank">(Software Development and Programming Guide)</a>
+      </th>
+      <td>Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components. Software development involves writing and maintaining the source code, but in a broader sense, it includes all processes from the conception of the desired software through to the final manifestation of the software, typically in a planned and structured process. Software development also includes research, new development, prototyping, modification, reuse, re-engineering, maintenance, or any other activities that result in software products</td>
+      <td>65 hours</td>
+   </tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+</body>
+</html>

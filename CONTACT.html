@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Flexbox grid layout w/ Mobile Menu</title>
+ <link rel="stylesheet" href="./style2.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header class="header">
+    <div class="container">
+      <h1 class="site-title">Supreme</h1>
+    <span class="site-tagline">Bringing you the best IT project training!</span>
+    <img src="LOGO.jpg" alt="LOGO.png"width="100" height="80">
+  </div>
+</header>
+<nav class="main-nav">
+  <div class="container">
+    <ul>
+      <li class="mobile-button"><a href="#">Menu</a></li>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="COURSE.html">COURSE</a></li>
+    <li><a href="CONTACT.html">CONTACT</a></li>
+  
+  </ul>
+  </div>
+</nav>
+
+<html>
+<body>
+
+
+
+  <html>
+    <body>
+    <script>  
+    function validateform(){  
+    var Firstname=document.myform.Firstname.value;
+    var Lastname=document.myform.Lastname.value;  
+    var Suggestion=document.myform.Suggestion.value; 
+    var phone=document.myform.phone.value;  
+      
+    if (Firstname==null || Firstname==""){  
+      alert("First Name can't be blank");  
+      return false;  
+    }
+    
+    if (Lastname==null || Lastname==""){  
+      alert("Last Name can't be blank");  
+      return false;  
+    }
+    
+     if (Suggestion==null || Suggestion==""){  
+      alert("Suggestion can't be blank");  
+      return false;  
+    }
+    else if (isNaN(phone)){
+     alert("Please enter the number")
+      return false;
+    }
+    if (phone==null || phone==""){  
+      alert("phone can't be blank");  
+      return false;  
+    }
+    }  
+    
+    </script>  
+    <body>  
+    <form name="myform" method="post" action="mailto:username@hotmail.com" onsubmit="return validateform()" >  
+    First Name: <input type="text" name="Firstname"><br/>  
+    <br>
+    Last Name:  <input type="text" name="Lastname"><br/> 
+    <br>
+    Suggestion: <input type="text" name="Suggestion"><br/> 
+    <br>
+    Phone: <input type="text" name="phone"><br/>  
+    <br>
+    <input type="submit" value="Submit">  
+    </form>  
+    </body>
+    </html>
+
+
+<hr>
+
+<style>
+  img {
+    float: right;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h3>We are here!</h3>
+  
+  <p><img src="map.jpg" alt="Pineapple" style="width:800px;height:400px;margin-left:10px;">
+  </p>
+  <h4>
+  <p>No. 9, Xuefu Road, Yinzhou District, Ningbo City</p>  
+  <p>1. You can take bus No.369 to the downstairs of the company</p>
+  <p>2. You can take Metro Line 5 and get off at Yinhe Plaza South</p>
+  </h4>
+  
+
+  
+
+  
+    
+
+</body>
+</html>
